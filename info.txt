@@ -1,4 +1,4 @@
-1 - ne jamais imbriqué les projets:
+1 - ne jamais imbriquer les projets:
     - api projet
     - frontend projet
 
