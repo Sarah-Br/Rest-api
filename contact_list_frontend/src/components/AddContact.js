@@ -1,7 +1,7 @@
-import { Modal, Button } from 'antd';
-import React from "react"
+import React from 'react'
+import { Modal, Button } from 'antd'
 
-class addContact extends React.Component {
+class AddContact extends React.Component {
   state = { visible: false };
 
   showModal = () => {
@@ -44,4 +44,5 @@ class addContact extends React.Component {
     );
   }
 }
-export default addContact;
+
+export default AddContact;

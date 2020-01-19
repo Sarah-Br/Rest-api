@@ -1,0 +1,10 @@
+1 - ne jamais imbriqué les projets:
+    - api projet
+    - frontend projet
+
+2 - utiliser un Component au lieu d'un functionnal Component que lorsque tu dois gérer des lifecycles ou state
+3 - Ne jamais initialiser son state avec ses props
+4 - Utilise PropTypes pour définir un peu ce que tu attends en props
+    - si elle ne sont pas required tu peux leur donner une valeur par default dans TonComponent.defaultProps
+5 - Ne pas setter une valeur de state avec '=' c'est du JSON tu dois utiliser ':'
+
