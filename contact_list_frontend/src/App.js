@@ -11,7 +11,6 @@ export default class App extends Component {
     // fetchera les contacts au montage du composant et les enregistrera dans ton state
     axios.get('http://localhost:5000/fetchcontact')
     .then(result => {
-      console.log('Data shape: ', result)
       this.setState({
         contacts: result.data
       })
